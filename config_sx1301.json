@@ -1,0 +1,76 @@
+{
+  "sx1301": {
+    "lorawan_public" : false,
+    "clock_source" : 1,
+    "radio_0" : {
+      "enable" : false,
+      "type" : "SX1257",
+      "freq" : 868000000,
+      "rssi_offset" : -166.0,
+      "tx_enable" : false,
+      "tx_notch_freq" : 256000
+    },
+    "radio_1" : {
+      "enable" : true,
+      "type" : "SX1257",
+      "freq" : 868000000,
+      "rssi_offset" : -166.0,
+      "tx_enable" : false,
+      "tx_notch_freq" : 256000
+    },
+    "chan_multiSF_0" : {
+      "enable" : false,
+      "radio" : 0,
+      "if" : 0
+    },
+    "chan_multiSF_1" : {
+      "enable" : false,
+      "radio" : 0,
+      "if" : 0
+    },
+    "chan_multiSF_2" : {
+      "enable" : false,
+      "radio" : 0,
+      "if" : 0
+    },
+    "chan_multiSF_3" : {
+      "enable" : false,
+      "radio" : 0,
+      "if" : 0
+    },
+    "chan_multiSF_4" : {
+      "enable" : false,
+      "radio" : 0,
+      "if" : 0
+    },
+    "chan_multiSF_5" : {
+      "enable" : false,
+      "radio" : 0,
+      "if" : 0
+    },
+    "chan_multiSF_6" : {
+      "enable" : false,
+      "radio" : 0,
+      "if" : 0
+    },
+    "chan_multiSF_7" : {
+      "enable" : false,
+      "radio" : 0,
+      "if" : 0
+    },
+    "chan_LoRa_std": {
+      "enable" : true,
+      "radio" : 1,
+      "if" : 0,
+      "bw" : 250000,
+      "sf" : 7
+    },
+    "chan_FSK": {
+      "enable" : false,
+      "radio" : 1,
+      "if": 0,
+      "bw" : 125000,
+      "datarate" : 50000
+    }
+  }
+}
